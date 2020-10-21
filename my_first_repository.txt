@@ -1,11 +1,9 @@
-echo "# LR_1" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/misssffit/LR_1.git
-git push -u origin main
-git remote add origin https://github.com/misssffit/LR_1.git
-git branch -M main
-git push -u origin main
-                
+1. Git- це система керування версіями та спільної роботи.
+2. - змінені файли, добавлені файли, чекоют коміту та не добавлені файли .
+3. Add- добавляє файли на стадію коміту.
+4. Status- показує стан файлів.
+5. Commit - збирає всі данні добавлені командою git add і зберігає їх.
+6. Init - перетворює звичайню директорію в Git репозиторій.
+7. - опис загальних змін які відбулися.
+8. - щоб переглянути список комітів потрібно написати git log -- since=за який час , наприклад (2.weeks).
+9. Checkout - використовується для переключення між гілками та вигрузки їх складу в робочу директорію.
